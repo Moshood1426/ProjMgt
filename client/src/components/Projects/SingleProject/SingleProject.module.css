@@ -1,0 +1,23 @@
+.single_project {
+  background-color: var(--dark-700);
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+
+.single_project_subtitle {
+  color: var(--grey-600);
+}
+
+.status {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.single_project_btn {
+  align-self: flex-start;
+}

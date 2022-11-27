@@ -1,0 +1,14 @@
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 850px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5em;
+  }
+}

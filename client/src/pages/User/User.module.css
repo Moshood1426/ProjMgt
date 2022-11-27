@@ -1,0 +1,106 @@
+.nav {
+  max-width: var(--max-width);
+  width: 90%;
+  margin: 0 auto;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 0.875rem;
+}
+
+.nav_list > p {
+  margin: 0;
+}
+
+.nav_image {
+  display: flex;
+  align-items: center;
+}
+
+.admin,
+.sign_in {
+  display: block;
+  padding: 0.65em 1.5em;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.sign_in {
+  background-color: var(--dark-500);
+  border: solid 1px var(--dark-400);
+  padding: 0.65em 1.5em;
+}
+
+.sign_in:hover {
+  background-color: var(--black);
+  color: var(--accentColor);
+}
+
+.header {
+  width: 90%;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  margin-bottom: 2.5em;
+}
+
+.header_btn > button:last-child {
+  margin-left: 1em;
+  background-color: var(--dark-800);
+  border: solid 1px var(--dark-200);
+  padding: 0.8em 2em;
+}
+
+.header_btn > button:first-child {
+  background-color: var(--dark-900);
+  border: var(--dark-200) solid 0.5px;
+  padding: 0.8em 2em;
+}
+
+.container_title {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container_title {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2em;
+  gap: 0.75em;
+}
+
+.container_title > h3 {
+  margin: 0;
+}
+
+.table_container {
+  margin-bottom: 3em;
+}
+
+.btn_div {
+  display: flex;
+  gap: 0.5em;
+}
+
+.btn_div > button:first-child {
+  background-color: var(--red-dark);
+}
+
+.btn_div > button:last-child {
+  background-color: var(--green-dark);
+}
+
+.client_list {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 0.5em;
+}
